@@ -8,7 +8,7 @@
 #
 # 2- Cópialo en la carpeta htcdocs de Xampp.
 # 
-# 3- Iniciar Xampp,    Start → Apache 
+# 3- Iniciar Xampp,    Start → Apache
 #                      Start → MySql
 # 4- Una vez iniciado abrimos el navegador y escribimos “ localhost/phpmyadmin ”para acceder a la administracion de la base de datos. Si tienes una password para logarte, entonces tienes que añadir dicha password  en  archivo bd_conexion.php. situado en la carpeta include/funciones/bd_conexion.php. Ahí tienes que añadir en el campo vacío la password ‘ ‘ y si tiene un ususario distinto a root tambien deberá cambiarlo en el mismo archivo bd_conexion.php, donde pone ‘root’ tendrás que poner el nombre de su usuario. (Esto es para poder cargar la base de datos ciberwebcamp.sql.zip )
 # 5- Para cargar la base de datos ciberwebcamp.sql.zip hay que crear una nueva base de datos vacía y llamarla ciberwebcamp; 
